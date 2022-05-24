@@ -73,6 +73,18 @@ delimiter
 ## 3. Ruby Version Manager (rvm)
 print_table_results "Installed RVM" "command -v rvm | grep -q 'rvm'"
 print_table_results "Default RVM (3.1.2)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.1.2 [ x86_64 ]'"
+print_table_results "Default RVM (3.0.4)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.0.4 [ x86_64 ]'"
+print_table_results "Default RVM (2.7.6)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.7.6 [ x86_64 ]'"
+print_table_results "Default RVM (2.6.10)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.10 [ x86_64 ]'"
+print_table_results "Default RVM (3.2.0-preview1)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.2.0-preview1 [ x86_64 ]'"
+print_table_results "Default RVM (3.1.1)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.1.1 [ x86_64 ]'"
+print_table_results "Default RVM (3.1.0)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.1.0 [ x86_64 ]'"
+print_table_results "Default RVM (3.0.3)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.0.3 [ x86_64 ]'"
+print_table_results "Default RVM (2.7.5)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.7.5 [ x86_64 ]'"
+print_table_results "Default RVM (3.1.0-preview1)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.1.0-preview1 [ x86_64 ]'"
+print_table_results "Default RVM (3.0.2)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-3.0.2 [ x86_64 ]'"
+print_table_results "Default RVM (2.7.4)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.7.4 [ x86_64 ]'"
+
 print_table_results "Test RVM PATH" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fqv 'Warning! PATH'"
 delimiter
 
